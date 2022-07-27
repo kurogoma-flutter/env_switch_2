@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "742198149538",
+    "project_id": "env-switch-app-stg",
+    "storage_bucket": "env-switch-app-stg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742198149538:android:e7d739d9595c7a194332fb",
+        "android_client_info": {
+          "package_name": "com.example.env_switch_demo.stg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742198149538-4opd583ehs865d7bi230k5hlov4m3inq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPVvdwSLWG-LGaODPnMyJzKYGhcY-14Xw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742198149538-4opd583ehs865d7bi230k5hlov4m3inq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "742198149538-a4thpr8qlm17jeaoelr33ec0g0f2qn0b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.envSwitchDemo.stg"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
