@@ -13,7 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>env_switch_demo</string>
+	<string>EnvSwitchDemo$(APP_ID_SUFFIX)</string>
+	<key>CFBundleDisplayName</key>
+	<string>EnvSwitchDemo$(APP_ID_SUFFIX)</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
