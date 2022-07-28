@@ -5,9 +5,7 @@ import 'package:package_info_plus/package_info_plus.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-      // options: DefaultFirebaseOptions.currentPlatform,
-      );
+  await Firebase.initializeApp();
 
   runApp(const MyApp());
 }
@@ -67,9 +65,6 @@ class _MyHomePageState extends State<MyHomePage> {
     Future(() async {
       await getRemoteConfig();
       await _initPackageInfo();
-      await _remoteConfig.setDefaults({
-        'remote_value': 'test',
-      });
       remoteValue = await getRemoteValue('appFlavor');
     });
   }
@@ -77,7 +72,6 @@ class _MyHomePageState extends State<MyHomePage> {
   Future<void> _initPackageInfo() async {
     final info = await PackageInfo.fromPlatform();
     setState(() {
-      print(info.buildSignature);
       _packageInfo = info;
     });
   }
